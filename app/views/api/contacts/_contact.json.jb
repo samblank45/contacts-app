@@ -6,9 +6,12 @@
   phone_number: contact.phone_number,
   middle_name: contact.middle_name,
   bio: contact.bio,
+  groups: contact.groups,
   formatted: {
     updated_at: contact.friendly_updated_at,
     full_name: contact.full_name,
-    prefix: contact.japanese_prefix
+    prefix: contact.japanese_prefix,
+    latitude: contact.latitude,
+    longitude: contact.longitude
   }
 }
